@@ -1,0 +1,1 @@
+The issue was the endpoint of the liveness probe, I changed it from /nginx_status to /healthz
